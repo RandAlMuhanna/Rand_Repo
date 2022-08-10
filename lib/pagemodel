@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+
+class PageModel {
+  String _image;
+  String _titels;
+  String _captions;
+
+  PageModel(this._image, this._titels, this._captions);
+
+  String get image => _image;
+  String get titels => _titels;
+  String get captions => _captions;
+}
